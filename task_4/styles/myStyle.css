@@ -1,0 +1,95 @@
+body 
+{
+ background-image: url(images/green.png);
+    direction:rtl;
+}
+#container{
+    width: 960px;
+margin: auto 
+    
+}
+#body{
+  align-content:center;
+    text-align: center;
+}
+section{
+    background-color: floralwhite;
+    width: 550px;
+    border: 15px solid green;
+    padding: 10px;
+    margin: 25px;
+    align-content: center;
+}
+h1 {
+    color: darkblue;
+    font-weight: bold;
+    font-size: 30px;
+}
+#noa{
+    width: 300px;
+    height: 300px;
+    align-content: center;
+}
+
+h2 , h3 , h4 , h5 ,p {
+    color: darkblue;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+ul{
+    list-style-position: inside;
+}
+
+
+#nav1 ul {
+    list-style: none;
+}
+
+#nav1 ul li {
+        display: inline-block;
+        float: right;
+    }
+#nav1 ul li a {
+            display: block;
+            background-color: forestgreen;
+            color: white;
+            width: 120px;
+            height: 40px;
+            padding-top: 10px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+#nav1 ul li a:hover {
+            background-color: wheat;
+}
+
+#nav1 ul li a:active {
+                background-color: yellowgreen;
+}
+
+#nav1 ul li ul {
+            display: none;
+            position: absolute;
+        }
+
+#nav1 ul li:hover > ul {
+            display: block;
+            width: 120px;
+        }
+
+img{
+    width: 150px;
+    height: 150px;
+}
+#noa{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
